@@ -1,6 +1,6 @@
 # 🧠 Customer Churn Prediction
 
-![Customer Churn Banner](./bd6104bd-85a3-4311-8feb-263f874b5731.png)
+![Customer Churn Banner](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*WZdoYPpmiIk1AcPQ1YHWug.png)
 
 ---
 
@@ -10,8 +10,7 @@
 
 In this project, we:
 - Built a machine learning model to predict churn probability
-- Identified key churn factors
-- Designed a Flask web app for live predictions
+- Identified key churn factor
 - Used various visualization techniques to analyze user behavior
 
 ---
@@ -34,38 +33,16 @@ An e-commerce company wants to launch targeted marketing campaigns. To do so, th
 
 ---
 
-## 📁 Dataset
+We could use Hyperparamete Tuning or Feature enginnering methods to improve the accuracy further.
 
-- Provided by **DataMites Institute**
-- Format: `.xlsx`
-- Contains: 
-  - Login behavior
-  - Device and payment preferences
-  - Gender, marital status
-  - Number of registered devices
-  - Complaint and satisfaction metrics
-  - Churn label (1 = left, 0 = retained)
+Feedback
+If you have any feedback, please reach out at mr.abhi7208@gmail.com
 
-✅ **No duplicate rows**  
-🧹 `CustomerID` column removed (not predictive)
+🚀 About Me
+Hi, I'm Abhishek! 👋
+I am an AI Enthusiast and Data science & ML practitioner
 
----
 
-## 📈 EDA and Visual Insights
-
-Below are a few major findings from the exploratory data analysis:
-
-![EDA Charts](./b4df12ff-6f3f-4bcc-8272-d257ae083115.png)
-
-### Key Observations:
-- **83.2%** of users stayed, while **16.8% churned**
-- More **males** than females in user base
-- Most users prefer using the app on **mobile phones**
-- Majority spend between **2–4 hours** daily on the app
-- **Tier-2 cities** have the lowest customer base
-- Debit and credit cards are the most preferred payment methods
-
----
 
 ## 🛠️ Tech Stack & Requirements
 
