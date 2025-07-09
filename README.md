@@ -33,6 +33,26 @@ An e-commerce company wants to launch targeted marketing campaigns. To do so, th
 
 ---
 
+EDA and Plots
+
+Visualizing the categorical columns indicates:
+1. About 83.2 % of the customers were retained, while 16.8% churned.
+
+2. The company also has more male than female clients.
+
+3. Most clients prefer logging in from their mobile phones to their phones and computers.
+
+4. Most clients spend an average of 2 and 4 hours on the company’s app.
+
+5. Most customers have about 3 or 4 devices registered for the retailer’s app.
+
+6. Most customers prefer debit and credit cards to make payments.
+
+7. City tier 2 has the lowest number of customers.
+
+From the figure, notice that many customers placed their first and second orders, and the number reduced in subsequent orders. Additionally, the number of customers reduced a week after their last order.
+![Customer Churn Banner](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*asou0LtTUdnX7ZIhmQ_VCQ.png)
+
 We could use Hyperparamete Tuning or Feature enginnering methods to improve the accuracy further.
 
 Feedback
