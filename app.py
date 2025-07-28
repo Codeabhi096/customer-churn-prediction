@@ -108,26 +108,4 @@ def predict():
         o1 = "This customer is likely to continue!!"
         o2 = "Confidence: {}".format(probablity*100)
         
-    return render_template('home.html', output1=o1, output2=o2, 
-                           query1 = request.form['query1'], 
-                           query2 = request.form['query2'],
-                           query3 = request.form['query3'],
-                           query4 = request.form['query4'],
-                           query5 = request.form['query5'], 
-                           query6 = request.form['query6'], 
-                           query7 = request.form['query7'], 
-                           query8 = request.form['query8'], 
-                           query9 = request.form['query9'], 
-                           query10 = request.form['query10'], 
-                           query11 = request.form['query11'], 
-                           query12 = request.form['query12'], 
-                           query13 = request.form['query13'], 
-                           query14 = request.form['query14'], 
-                           query15 = request.form['query15'], 
-                           query16 = request.form['query16'], 
-                           query17 = request.form['query17'],
-                           query18 = request.form['query18'], 
-                           query19 = request.form['query19'])
     
-app.run()
-
